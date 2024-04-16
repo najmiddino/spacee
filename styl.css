@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px; 
+}
+
+nav ul{ 
+    list-style-type: none; 
+    display: flex; 
+    gap: 40px; 
+} 
+
+nav ul li a { 
+    text-decoration: none; 
+    color: black; 
+} 
+
+.main-button {
+    width: 105px;
+height: 40px;
+left: 1003px;
+gap: 0px;
+opacity: 0px;
+border-radius: 25px  ;
+background-color: aqua;
+border: aqua;
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.more {
+    font-family: Poppins;
+font-size: 80px;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: -2px;
+text-align: left;
+
+}
+
+.build {
+    font-family: Poppins;
+font-size: 22px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+
+
+}
+
+.headr-button {
+    width: 197px;
+height: 56px;
+top: 295px;
+gap: 0px;
+opacity: 0px;
+border-radius: 20px;
+background-color: aqua;
+border: aqua;
+}
+
+.row-1 {
+    
+    background-color:#543030 ;
+height: 270px;
+top: 801px;
+gap: 0px;
+opacity: 0px;
+margin-top: 120px;
+}
+
+
+.container-pasition {
+    width: 1110px;
+height: 168px;
+top: 709px;
+left: 165px;
+gap: 0px;
+opacity: 0px;
+background-color: #4B3F6B;
+border-radius: 15px;
+position: absolute;
+top: 650px;
+left: 200px;
+text-align: center;
+
+}
+
+input {
+    width: 769px;
+height: 64px;
+margin-top: 50px;
+left: 229px;
+gap: 0px;
+opacity: 0px;
+border-radius: 15px;
+
+}
+
+.container-pasition button {
+    width: 200px;
+height: 64px;
+top: 761px;
+left: 1022px;
+gap: 0px;
+opacity: 0px;
+border-radius: 15px;
+background-color: aqua;
+border: aqua;
+}
+
+.row-1 h1 {
+    color: white;
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: -1px;
+text-align: center;
+padding-top: 110px;
+margin: 10px;
+
+}
+
+
+.button-1 {
+    width: 197px;
+    height: 60.48px;   
+    border-radius: 22px;
+    background-color: aqua;
+    border: aqua;
+    margin-left: 630px;
+}
+
+footer {
+    background-color: #232127;
+    height: 130.2px;
+    top: 1071px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+.logos {
+    /* width: 160px; */
+    width: 180px;
+    margin-top: 50px;
+}
+footer ul {
+    list-style-type: none; 
+    display: flex; 
+    gap: 40px; 
+    margin-top: 50px;
+}
+
+footer ul li a {
+    text-decoration: none; 
+    color: black;  
+    color: white;
+    
+}
+
+.logo-1 {
+    margin-top: 50px;
+}
